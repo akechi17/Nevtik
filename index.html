@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rafie Nevtik</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="shortcut icon" type="x-icon" href="img/logo1.png">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <header id="header" class="header">
+
+      <nav class="navigation">
+        <div class="container">
+          <div class="logo">
+            <img src="./img/logo1.png" alt="" />
+          </div>
+
+          <div class="links">
+            <ul>
+              <li>
+                <a href="#header">Home</a>
+              </li>
+              <li>
+                <a href="#introduction">Introduction</a>
+              </li>
+              <li>
+                <a href="#gallery">Gallery</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#mailto:rafie0917@gmail.com" class="button">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header-content">
+        <div class="container grid-2">
+          <div class="column-1">
+            <h1 class="header-title">Goro Akechi</h1>
+            <p class="text">
+              Hello, I am Goro Akechi. I am an ace detective... A celebrity! And i'm also a web developer
+            </p>
+            <a href="#about" class="btn">About Akechi</a>
+          </div>
+
+          <div class="column-2 image">
+            <img src="./img/shapes/points2.png" class="points points2" alt="" />
+            <img src="./img/goro.png" class="img-element z-index" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- introduction section -->
+    <section class="features" id="introduction">
+      <article>
+        <div class="left-col">
+          <div class="left-col-text">
+            <h2>Code name Crow</h2>
+            <p>As Crow, Akechi wears a princely pure-white regalia with red accents and a red, long-nosed mask. His mask
+              motif resembles a long-nosed Venetian mask. His image is a combination of a noble's attire, and a uniform
+              worn by cavalry or guards of honor..</p> <a href="https://megamitensei.fandom.com/wiki/Goro_Akechi"
+              target="blank">LEARN
+              MORE</a>
+          </div>
+        </div>
+
+        <div class="right-col">
+          <picture>
+            <source media="(max-width: 375px)" srcset="img/mobile/goroakechi.png">
+            <img src="img/desktop/goroakechi.png" alt="transform image">
+          </picture>
+        </div>
+      </article>
+
+      <article>
+        <div class="right-col">
+          <picture>
+            <source media="(min-width: 280px)" srcset="img/mobile/akechi.png">
+            <img src="img/desktop/akechi.png" alt="stand out imnage">
+          </picture>
+        </div>
+        <div class="left-col">
+          <div class="left-col-text">
+            <h2>Personality and public image</h2>
+            <p>Akechi appears to be well-mannered, friendly, and charismatic. His achievement of being a high-school
+              detective, coupled with his handsome features, makes him highly popular among the general public and he is
+              commented to be "The Second Coming of the Detective Prince." His intelligence and smooth-talk earned him
+              enough trust from the police to conduct his own investigation despite his young age, working with Sae
+              Niijima, who fully trusts him to assist her in her investigation..</p>
+            <a href="https://megamitensei.fandom.com/wiki/Goro_Akechi" target="blank">Learn more</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Gallery -->
+    <div class="gallery" id="gallery">
+      <picture>
+        <source media=(max-width: 375px) srcset="img/mobile/akechi1.png">
+        <img src="img/desktop/akechi1.png" alt="akechi1">
+      </picture>
+      <picture>
+        <source media="max-width: 375px" srcset="img/mobile/akechi2.png">
+        <img src="img/desktop/akechi2.png" alt="akechi2">
+      </picture>
+      <picture>
+        <source media="max-width: 375px" srcset="img/mobile/akechi3.png">
+        <img src="img/desktop/akechi3.png" alt="akechi3">
+      </picture>
+      <picture>
+        <source media=(max-width: 375px) srcset="img/mobile/akechi4.png">
+        <img src="img/desktop/akechi4.png" alt="akechi4">
+      </picture>
+    </div>
+
+    <!-- about section -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="title" data-title="Who Am I">About me</h3>
+        </div>
+
+        <div class="grid-2">
+          <div class="column-1">
+            <h3 class="subTitle">Hello, I'm Goro Akechi</h3>
+            <p class="text">
+              I'm gonna show you my skill progress in web development
+            </p>
+            <div class="skills">
+              <div class="skill html">
+                <h3 class="skill-title">HTML</h3>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="80%"></div>
+                </div>
+              </div>
+              <div class="skill css">
+                <h3 class="skill-title">CSS</h3>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="60%"></div>
+                </div>
+              </div>
+              <div class="skill js">
+                <h3 class="skill-title">JavaScript</h3>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="30%"></div>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn">Read more</a>
+          </div>
+
+          <div class="column-2 image">
+            <img src="./img/shapes/points4.png" class="points" alt="" />
+            <img src="./img/akechi.png" class="z-index" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="grid-4">
+        <div class="grid-4-col footer-about">
+          <h3 class="subTitle">Disclaimer</h3>
+          <p class="text">
+            All characters, story, and information in this website are entirely fictional. Any similarity to actual
+            persons, living or dead, are purely coincidental.
+          </p>
+        </div>
+
+        <div class="grid-4-col footer-links">
+          <h3 class="subTitle">Links</h3>
+          <ul>
+            <li>
+              <a href="#introduction">Introduction</a>
+            </li>
+            <li>
+              <a href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="grid-4-col footer-links">
+          <h3 class="subTitle">Website</h3>
+          <ul>
+            <li>
+              <a href="https://rafie.netlify.app/" target="blank">Babymetal</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="grid-4-col footer-email">
+          <h3 class="subTitle">E-mail</h3>
+          <ul>
+            <li>
+              <a href="mailto:rafie0917@gmail.com">rafie0917@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bottom-footer">
+        <div class="copyright">
+          <p class="text">
+            Copyright&copy;2022 All rights reserved |
+            <span>Rafie Pradipta</span>
+          </p>
+        </div>
+
+        <div class="followme-wrap">
+          <div class="followme">
+            <h3>Follow me</h3>
+            <span class="footer-line"></span>
+            <div class="social-media">
+              <a href="https://www.facebook.com/rafie.pradipta.5" target="blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/RafiePradipta" target="blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/rafiepradipta/" target="blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="back-btn-wrap">
+            <a href="#" class="back-btn">
+              <i class="fas fa-chevron-up"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="loader-container">
+    <img src="img/akechi.gif" alt="">
+  </div>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
